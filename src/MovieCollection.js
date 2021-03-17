@@ -1,0 +1,20 @@
+let collection = [
+   {
+      title:"kedarnath",
+      img:"",
+      link:"",
+      id:"1"
+   },
+   {
+      title:"",
+      img:"",
+      link:"",
+      id:"2"
+   },
+   {
+      title:"kedarnath",
+      img:"",
+      link:"",
+      id:"3"
+   }
+]
