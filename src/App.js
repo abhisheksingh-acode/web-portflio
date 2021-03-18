@@ -33,7 +33,6 @@ import { Redirect, Route,Switch } from 'react-router';
         <Route exact path="/about" render={About} />
         <Route exact path="/project" render={Project} />
         <Route exact path="/Contact" render={Contact} />
-        <Redirect to="/" />
         </Switch>
         <Footer />
       </React.Fragment>
