@@ -28,13 +28,13 @@ import { Redirect, Route,Switch } from 'react-router';
       <React.Fragment>
         <Nav />
         <Switch>
-        <Route exact path="/" render={Home} />
         <Route exact path="/web-portflio" render={Home} />
         <Route exact path="/web-portflio/" render={Home} />
-        <Route exact path="/about" render={About} />
-        <Route exact path="/project" render={Project} />
-        <Route exact path="/Contact" render={Contact} />
-        <Redirect to="/" />
+        <Route exact path="/web-portflio/home" render={Home} />
+        <Route exact path="/web-portflio/about" render={About} />
+        <Route exact path="/web-portflio/project" render={Project} />
+        <Route exact path="/web-portflio/Contact" render={Contact} />
+        <Redirect to="/web-portflio/" />
         </Switch>
         <Footer/>
       </React.Fragment>
