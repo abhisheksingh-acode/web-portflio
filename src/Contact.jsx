@@ -5,7 +5,9 @@ function Contact(){
    return (
       <React.Fragment>
       <div className="w-50 my-5 mx-auto">
-      <form>
+      <form target="#" method="post" onSubmit={(ev)=>{
+            ev.preventDefault();
+      }}>
   <div className="mb-3">
     <label for="Name" className="form-label">Name</label>
     <input type="text" className="form-control" id="Name" aria-describedby="Name" autoComplete="off" />
