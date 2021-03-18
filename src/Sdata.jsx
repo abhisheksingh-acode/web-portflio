@@ -11,7 +11,7 @@ let Sdata = [
    {
       title:"Music Player",
       live:"https://abhisheksingh-acode.github.io/Music-player/",
-      git:"https://github/abhisheksingh-acode/Music-player",
+      git:"https://github.com/abhisheksingh-acode/Music-player",
       img:music
    },
    {
@@ -23,25 +23,25 @@ let Sdata = [
    {
       title:"Bootstrap 5 Layout One",
       live:"https://abhisheksingh-acode.github.io/BootstrapLayoutOne/",
-      git:"https://github/abhisheksingh-acode/BootstrapLayoutOne",
+      git:"https://github.com/abhisheksingh-acode/BootstrapLayoutOne",
       img:layoutOne
    },
    {
       title:"Bootstrap 5 Layout Two",
       live:"https://abhisheksingh-acode.github.io/bootstrapLayoutThree/",
-      git:"https://github/abhisheksingh-acode/bootstrap/bootstrapLayoutThree",
+      git:"https://github.com/abhisheksingh-acode/bootstrap/bootstrapLayoutThree",
       img:layoutThree
    },
    {
       title:"Official Page Layout Three",
       live:"https://abhisheksingh-acode.github.io/bootstrapLayoutTwo/",
-      git:"https://github/abhisheksingh-acode/bootstrapLayoutTwo",
+      git:"https://github.com/abhisheksingh-acode/bootstrapLayoutTwo",
       img:layoutTwo
    },
    {
       title:"React JS App",
       live:"https://abhisheksingh-acode.github.io/react-app/",
-      git:"https://github/abhisheksingh-acode/react-app",
+      git:"https://github.com/abhisheksingh-acode/react-app",
       img:react
    },
 ]

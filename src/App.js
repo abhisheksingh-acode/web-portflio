@@ -29,12 +29,14 @@ import { Redirect, Route,Switch } from 'react-router';
         <Nav />
         <Switch>
         <Route exact path="/" render={Home} />
-        <Route exact path="/React-app" render={Home} />
+        <Route exact path="/web-portflio" render={Home} />
+        <Route exact path="/web-portflio/" render={Home} />
         <Route exact path="/about" render={About} />
         <Route exact path="/project" render={Project} />
         <Route exact path="/Contact" render={Contact} />
+        <Redirect to="/" />
         </Switch>
-        <Footer />
+        <Footer/>
       </React.Fragment>
     )
   }
