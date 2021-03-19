@@ -5,7 +5,7 @@ import pic from './images/image2.png'
 function About(){
    return(
       <React.Fragment>
-       <Common title="ABOUT" imgsrc={pic}/>
+       <Common title="ABOUT" imgsrc={pic} />
        </React.Fragment>
        )}
 

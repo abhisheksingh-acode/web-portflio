@@ -1,9 +1,12 @@
 import React from 'react';
 
+
 function Contact(){
 
    return (
       <React.Fragment>
+      <div className="h-100 w-100">
+      <h1 className="text-center text-secondary mt-3">Give Feedback</h1>
       <div className="w-50 my-5 mx-auto">
       <form target="#" method="post" onSubmit={(ev)=>{
             ev.preventDefault();
@@ -32,7 +35,8 @@ function Contact(){
 </form>
       
 </div>
-      
+</div>
+
       </React.Fragment>
    )
 }

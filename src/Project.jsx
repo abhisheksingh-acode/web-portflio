@@ -8,8 +8,8 @@ function Project(){
  
    return (
       <React.Fragment>
-      <h1 className="text-center text-black-50">Thank you for visiting</h1>
-      <div className="w-75 mx-auto d-flex justify-content-md-start justify-content-center flex-wrap">
+      <h1 className="text-center text-secondary my-3">PROJECTS</h1>
+      <div className="container-fluid mx-auto d-flex justify-content-md-center justify-content-center flex-wrap my-5">
        {Sdata.map((val,ind)=>{
           return <Card key={ind} id={ind} source={val.git} link={val.live} imgsrc={val.img}  title={val.title} live={val.git} />
        })}

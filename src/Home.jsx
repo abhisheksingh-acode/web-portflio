@@ -1,6 +1,8 @@
 import React from 'react';
 import Common from './Common';
-import pic from './images/image1.png'
+import Project from "./Project";
+import Contact from "./Contact";
+import pic from './images/landing.png'
 
 function Home(){
    return(

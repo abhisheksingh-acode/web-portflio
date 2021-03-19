@@ -28,7 +28,7 @@ import { Redirect, Route,Switch } from 'react-router';
       <React.Fragment>
         <Nav />
         <Switch>
-        <Route exact path="/home/" render={Home} />
+        <Route exact path="/home/" component={Home} />
         <Route exact path="/" render={Home} />
         <Route exact path="/home" render={Home} />
         <Route exact path="/about" render={About} />
